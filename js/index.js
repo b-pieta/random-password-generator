@@ -54,7 +54,7 @@ lengthButton.addEventListener('click', function () {
 });
 
 generatorButton.addEventListener('click', function () {
-	if (count == null) {
+	if (count == 0 || count == null) {
 		window.alert('Please specify the length. Try again.');
 	}
 
