@@ -23,12 +23,17 @@ while(count < 8){
     count = prompt("Please enter the length: ")
 }
 while (count == 0){
-    window.alert("Invalid password. Try again.");
+    window.alert("Invalid length. Try again.");
     count = prompt("Please enter the length: ")
 }
 
 if (count == null){
     return;
+}
+
+if (isNaN(number)){
+    window.alert("It is not a number. Invalid length. Try again.");
+    count = prompt("Please enter the length: ")
 }
 
 lengthButton.textContent = "Length: " + count
