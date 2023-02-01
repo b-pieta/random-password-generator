@@ -15,6 +15,7 @@ lengthButton.addEventListener('click', function () {
 
 	while (count > 15) {
 		if (count == null) {
+            lengthButton.textContent = 'Length: ';
 			return;
 		}
 		window.alert(
@@ -25,6 +26,7 @@ lengthButton.addEventListener('click', function () {
 
 	while (count < 8) {
 		if (count == null) {
+            lengthButton.textContent = 'Length: ';
 			return;
 		}
 		window.alert(
@@ -35,6 +37,7 @@ lengthButton.addEventListener('click', function () {
 
 	if (isNaN(count) == true) {
 		if (count == null) {
+            lengthButton.textContent = 'Length: ';
 			return;
 		}
 		window.alert('It is not a number. Invalid length. Try again.');
@@ -42,6 +45,7 @@ lengthButton.addEventListener('click', function () {
 
 	} else if (count != Math.floor(count)) {
         if (count == null) {
+            lengthButton.textContent = 'Length: ';
 			return;
 		}
         window.alert("Number can't be decimal. Try again.")
