@@ -17,12 +17,12 @@ while(count > 15){
     window.alert("Password can't be longer than 15 characters. Please try again.");
     count = prompt("Please enter the length: ")
 }
-while (count === 0){
+while (count == 0){
     window.alert("Invalid password. Try again.");
     count = prompt("Please enter the length: ")
 }
 
-if (count === null){
+if (count == null){
     return;
 }
 
