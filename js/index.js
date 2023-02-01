@@ -31,7 +31,7 @@ if (count == null){
     return;
 }
 
-if (isNaN(number)){
+if (isNaN(count) == true){
     window.alert("It is not a number. Invalid length. Try again.");
     count = prompt("Please enter the length: ")
 }
